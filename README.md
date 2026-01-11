@@ -41,7 +41,7 @@ The implementation includes key logistic regression functions:
 
 4. **Hessian Matrix** for Newton's method optimization
 
-## 🏗️ Code Structure & Logic
+## Code Structure & Logic
 
 ### Core Components
 
@@ -110,7 +110,7 @@ sbatch run_admm.slurm
 mpirun -n 4 python logistic_regression_admm.py
 ```
 
-## 🔧 Configuration Parameters
+## Configuration Parameters
 
 - **`rho`**: ADMM penalty parameter (default: 2.0)
 - **`max_iters`**: Maximum ADMM iterations (default: 150)
@@ -150,5 +150,3 @@ This implementation demonstrates advanced concepts in:
 - **High-Performance Computing**
 
 ---
-
-*This project showcases the integration of mathematical optimization, distributed computing, and machine learning for solving large-scale logistic regression problems efficiently.*
