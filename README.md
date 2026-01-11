@@ -117,7 +117,7 @@ mpirun -n 4 python logistic_regression_admm.py
 - **`tolerance`**: Convergence threshold (default: 1e-3)
 - **`max_iter` (local)**: Local optimization iterations (default: 5)
 
-## 🎯 Algorithm Performance
+## Algorithm Performance
 
 The implementation provides:
 - **Convergence Monitoring**: Tracks primal and dual residuals
@@ -125,7 +125,7 @@ The implementation provides:
 - **Robust Optimization**: Handles ill-conditioned problems
 - **Memory Efficiency**: Processes large datasets in distributed manner
 
-## 📊 Output
+## Output
 
 The program outputs:
 - **Final Coefficients**: Intercept and feature coefficients
@@ -133,14 +133,14 @@ The program outputs:
 - **Processing Statistics**: Total samples, files, and processes used
 - **Performance Metrics**: Processing time and resource utilization
 
-## 🏛️ Mathematical Properties
+## Mathematical Properties
 
 - **Convergence**: ADMM guarantees convergence to global optimum for convex problems
 - **Scalability**: Linear scaling with number of processors
 - **Robustness**: Handles numerical instabilities in logistic regression
 - **Consistency**: Maintains statistical consistency across distributed data
 
-## 🎓 Academic Context
+## Academic Context
 
 This implementation demonstrates advanced concepts in:
 - **Distributed Optimization**
