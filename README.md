@@ -4,7 +4,7 @@
 
 This project implements **Distributed Logistic Regression** using the **Alternating Direction Method of Multipliers (ADMM)** algorithm with **Message Passing Interface (MPI)** for parallel processing. The implementation is designed to handle large-scale datasets distributed across multiple files and processes them efficiently using high-performance computing resources.
 
-## 🧮 Algorithm & Mathematical Foundation
+## Algorithm & Mathematical Foundation
 
 ### ADMM (Alternating Direction Method of Multipliers)
 
