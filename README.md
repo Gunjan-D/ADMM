@@ -72,7 +72,7 @@ The implementation includes key logistic regression functions:
 4. **Global Feature Standardization**
 5. **MPI-based Parallel Processing**
 
-## 🚀 Technical Features
+## Technical Features
 
 - **Parallel Processing**: MPI-based distributed computing
 - **Scalable Architecture**: Handles multiple data files across processes
@@ -87,7 +87,7 @@ The implementation includes key logistic regression functions:
 - **`run_admm.slurm`**: SLURM job submission script for HPC clusters
 - **`README.md`**: This documentation file
 
-## ⚡ Usage
+## Usage
 
 ### Prerequisites
 
